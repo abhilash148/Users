@@ -13,6 +13,7 @@
 		8DE18A0A29E7B10A00C3A949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE18A0929E7B10A00C3A949 /* Preview Assets.xcassets */; };
 		8DE18A1229E7BCFC00C3A949 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1129E7BCFC00C3A949 /* User.swift */; };
 		8DE18A1429E7BD8C00C3A949 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1329E7BD8C00C3A949 /* Friend.swift */; };
+		8DE18A1629E7CCDD00C3A949 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1529E7CCDD00C3A949 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		8DE18A0929E7B10A00C3A949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DE18A1129E7BCFC00C3A949 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8DE18A1329E7BD8C00C3A949 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		8DE18A1529E7CCDD00C3A949 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				8DE18A1129E7BCFC00C3A949 /* User.swift */,
 				8DE18A1329E7BD8C00C3A949 /* Friend.swift */,
+				8DE18A1529E7CCDD00C3A949 /* Users.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				8DE18A0529E7B10800C3A949 /* ContentView.swift in Sources */,
 				8DE18A0329E7B10800C3A949 /* UsersApp.swift in Sources */,
+				8DE18A1629E7CCDD00C3A949 /* Users.swift in Sources */,
 				8DE18A1229E7BCFC00C3A949 /* User.swift in Sources */,
 				8DE18A1429E7BD8C00C3A949 /* Friend.swift in Sources */,
 			);
