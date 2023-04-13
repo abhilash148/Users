@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailsView: View {
     var user: User
     var body: some View {
-        VStack {
+        List {
             Section {
                 Text(user.company)
                 Text(user.email)
@@ -20,7 +20,7 @@ struct DetailsView: View {
             
             Section("Friends", content: {
                 
-                List(user.friends, id:\.id) { friend in
+                ForEach(user.friends, id:\.id) { friend in
                     Text(friend.name)
                 }
             })
