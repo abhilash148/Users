@@ -16,7 +16,7 @@ struct ContentView: View {
             List {
                 ForEach(users.users, id: \.id) { user in
                     NavigationLink {
-                        Text(user.name)
+                        DetailsView(user: user)
                     } label: {
                         Text(user.name)
                     }
