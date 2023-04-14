@@ -15,6 +15,7 @@
 		8DE18A1429E7BD8C00C3A949 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1329E7BD8C00C3A949 /* Friend.swift */; };
 		8DE18A1629E7CCDD00C3A949 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1529E7CCDD00C3A949 /* Users.swift */; };
 		8DE18A1929E7E52800C3A949 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1829E7E52800C3A949 /* DetailsView.swift */; };
+		8DE18A1E29E9398C00C3A949 /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A1C29E9398C00C3A949 /* Users.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8DE18A1329E7BD8C00C3A949 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		8DE18A1529E7CCDD00C3A949 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		8DE18A1829E7E52800C3A949 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		8DE18A1D29E9398C00C3A949 /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		8DE18A0129E7B10800C3A949 /* Users */ = {
 			isa = PBXGroup;
 			children = (
+				8DE18A1C29E9398C00C3A949 /* Users.xcdatamodeld */,
 				8DE18A1729E7E51200C3A949 /* Views */,
 				8DE18A1029E7BCCC00C3A949 /* Models */,
 				8DE18A0229E7B10800C3A949 /* UsersApp.swift */,
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE18A0529E7B10800C3A949 /* ContentView.swift in Sources */,
+				8DE18A1E29E9398C00C3A949 /* Users.xcdatamodeld in Sources */,
 				8DE18A0329E7B10800C3A949 /* UsersApp.swift in Sources */,
 				8DE18A1629E7CCDD00C3A949 /* Users.swift in Sources */,
 				8DE18A1229E7BCFC00C3A949 /* User.swift in Sources */,
@@ -371,6 +375,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DE18A1C29E9398C00C3A949 /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DE18A1D29E9398C00C3A949 /* Users.xcdatamodel */,
+			);
+			currentVersion = 8DE18A1D29E9398C00C3A949 /* Users.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DE189F729E7B10800C3A949 /* Project object */;
 }
