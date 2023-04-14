@@ -3,6 +3,7 @@
     <entity name="CachedFriend" representedClassName="CachedFriend" syncable="YES" codeGenerationType="class">
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="oo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CachedUser" inverseName="rr" inverseEntity="CachedUser"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>
@@ -18,6 +19,7 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="rr" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CachedFriend" inverseName="oo" inverseEntity="CachedFriend"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>
